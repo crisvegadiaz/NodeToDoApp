@@ -15,3 +15,9 @@ RUN npm install
 
 # Comando para ejecutar la aplicación
 CMD npm start
+
+# Comando la aplicación se coloca en un contenedor de
+# docker build -t nodedocker .      
+
+# Cuando ejecutar aplicación
+# docker run -it nodedocker
